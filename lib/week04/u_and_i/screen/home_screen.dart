@@ -89,7 +89,9 @@ class _DDay extends StatelessWidget{
         ),
         Text(
           '${firstDay.year}.${firstDay.month}.${firstDay.day}',
-        )
+          style: textTheme.bodyMedium,
+        ),
+        const SizedBox()
       ],
     )
   }
