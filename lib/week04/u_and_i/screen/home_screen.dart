@@ -88,7 +88,7 @@ class _DDay extends StatelessWidget{
           style: textTheme.bodyLarge,
         ),
         Text(
-          
+          '${firstDay.year}.${firstDay.month}.${firstDay.day}',
         )
       ],
     )
