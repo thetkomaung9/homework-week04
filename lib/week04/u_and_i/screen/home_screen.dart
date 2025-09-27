@@ -11,4 +11,8 @@ class HomeScreen extends StatefulWidget{
 
 class _HomeScreenState extends State<HomeScreen>{
   DateTime firstDay = DateTime.now();
+
+  void onHearPressed(){
+    showCupertinoDialog(contex, builder: builder)
+  }
 }
