@@ -81,6 +81,10 @@ class _DDay extends StatelessWidget{
         Text(
           'U&I',
           style: textTheme.headlineLarge,
+        ),
+        const SizedBox(height: 16.0),
+        Text(
+          ''
         )
       ],
     )
