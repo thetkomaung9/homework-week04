@@ -47,7 +47,8 @@ class _HomeScreenState extends State<HomeScreen>{
       body: PageView(
         controller: [1, 2, 3, 4, 5]
         .map(
-          
+
+        )
       ),
     )
   }
