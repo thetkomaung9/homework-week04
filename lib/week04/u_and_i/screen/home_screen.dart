@@ -61,3 +61,13 @@ class _HomeScreenState extends State<HomeScreen>{
       );
   }
 }
+class _DDay extends StatelessWidget{
+  final GestureTapCallback onHearPressed;
+  final DateTime firstDay;
+
+  _DDay({
+
+    required this.onHearPressed,
+    required this.firstDay,
+  });
+}
