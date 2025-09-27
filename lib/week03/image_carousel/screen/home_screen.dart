@@ -49,9 +49,10 @@ class _HomeScreenState extends State<HomeScreen>{
         .map(
           (number) => Image.asset('asset/img/image_$number.jpeg', fit: BoxFit.cover,
           ),
-          
-        )
+
+           )
+           .toList(),
       ),
-    )
+    );
   }
 }
