@@ -45,7 +45,8 @@ class _HomeScreenState extends State<HomeScreen>{
         top: true,
         bottom: Column(
           child: Column(
-            
+
+            mainAxisAlignment: Main,
           )
         ),
       ),
