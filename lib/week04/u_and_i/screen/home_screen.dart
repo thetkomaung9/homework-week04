@@ -52,7 +52,9 @@ class _HomeScreenState extends State<HomeScreen>{
             children: [
               _DDay(
                 onHeartPressed: onHeartPressed,
-              )
+                firstDay: firstDay,
+              ),
+              _CoupleImage(),
             ],
           )
         ),
