@@ -5,5 +5,7 @@ class HomeScreen extends StatelessWidget{
 
   WebViewController webViewController = WebViewController()
 
-  ..loadRequest(Uri.parse('https://blog'))
+  ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
+
+  ..
 }
