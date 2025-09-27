@@ -102,7 +102,8 @@ class _DDay extends StatelessWidget{
         ),
         const SizedBox(height: 16.0),
         Text(
-          'D+${DateTime(now.year, now.month)}'
+          'D+${DateTime(now.year, now.month,
+          now.day).difference(firstDay)}'
         )
       ],
     )
