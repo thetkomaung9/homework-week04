@@ -43,7 +43,11 @@ class _HomeScreenState extends State<HomeScreen>{
       backgroundColor: Colors.pink[100],
       body: SafeArea(
         top: true,
-        
+        bottom: Column(
+          child: Column(
+            
+          )
+        ),
       ),
     )
   }
