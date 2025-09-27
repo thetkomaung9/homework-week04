@@ -19,7 +19,11 @@ void main(){
             fontWeight: FontWeight.w700,
           ),
           bodyLarge: TextStyle(
-            color: Colors.white
+            color: Colors.white,
+            fontSize: 30.0,
+          ),
+          bodyMedium: TextStyle(
+            color: Colors.white,
           )
         )
 
