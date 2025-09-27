@@ -35,6 +35,9 @@ class HomeScreen extends StatelessWidget{
           ),
         ],
       ),
-    )
+      body: WebViewWidget(
+        controller: webViewController,
+      ),
+    );
   }
 }
