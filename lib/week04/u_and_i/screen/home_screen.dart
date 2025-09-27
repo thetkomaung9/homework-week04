@@ -51,7 +51,6 @@ class _HomeScreenState extends State<HomeScreen>{
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               _DDay(
-                onHeartPressed: onHeartPressed,
                 firstDay: firstDay,
               ),
               _CoupleImage(),
