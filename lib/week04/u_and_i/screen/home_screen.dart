@@ -22,7 +22,9 @@ class _HomeScreenState extends State<HomeScreen>{
           child: Container(
             color: Colors.white,
             height: 300,
-            child: Cuper,
+            child: CupertinoDatePicker(
+              mode: CupertinoDatePickerMode.date,
+            ),
           ),
         )
          
