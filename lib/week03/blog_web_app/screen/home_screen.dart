@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget{
           IconButton(
 
             onPressed: (){
-              webViewController.loadRequest(Uri.parse('https'))
+              webViewController.loadRequest(Uri.parse('https://blog.codefactory.ai'));
             },
           )
         ],
