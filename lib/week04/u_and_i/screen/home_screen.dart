@@ -91,7 +91,8 @@ class _DDay extends StatelessWidget{
           '${firstDay.year}.${firstDay.month}.${firstDay.day}',
           style: textTheme.bodyMedium,
         ),
-        const SizedBox()
+        const SizedBox(height: 16.0),
+        IconButton(onPressed: onPressed, icon: icon)
       ],
     )
   }
