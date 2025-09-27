@@ -37,5 +37,14 @@ class _HomeScreenState extends State<HomeScreen>{
       barrierDismissible: true,
     );
   }
-  
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      backgroundColor: Colors.pink[100],
+      body: SafeArea(
+        top: true,
+        
+      ),
+    )
+  }
 }
