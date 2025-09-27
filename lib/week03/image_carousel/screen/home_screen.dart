@@ -43,5 +43,10 @@ class _HomeScreenState extends State<HomeScreen>{
   @override
   Widget build(BuildContext context){
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
+    return Scaffold(
+      body: PageView(
+        controller: [1, 2, 3, 4, 5],
+      ),
+    )
   }
 }
