@@ -72,7 +72,7 @@ class _DDay extends StatelessWidget{
   });
   @override
   Widget build(BuildContext context){
-    final TextTheme = Theme.of(context).textTheme;
+    final textTheme = Theme.of(context).textTheme;
     final now = DateTime.now();
 
     return Column(
@@ -84,7 +84,8 @@ class _DDay extends StatelessWidget{
         ),
         const SizedBox(height: 16.0),
         Text(
-          '우리 처음 만'
+          '우리 처음 만난 날',
+          style: textTheme.bodyLarge,
         )
       ],
     )
