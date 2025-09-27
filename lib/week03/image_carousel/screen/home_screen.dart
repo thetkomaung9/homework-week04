@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen>{
       body: PageView(
         controller: [1, 2, 3, 4, 5]
         .map(
-          (number) => Image.asset()
+          (number) => Image.asset('asset/img/image_$number.jpeg', fit: ,)
         )
       ),
     )
