@@ -32,7 +32,9 @@ class _HomeScreenState extends State<HomeScreen>{
         }else {
           nextPage++;
         }
-        pageController.animateToPage(page, dur curve: curve)
+        pageController.animateToPage(
+          
+        )
       }
     )
   }
