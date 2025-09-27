@@ -13,6 +13,20 @@ class _HomeScreenState extends State<HomeScreen>{
   DateTime firstDay = DateTime.now();
 
   void onHearPressed(){
-    showCupertinoDialog(contex, builder: builder)
+    showCupertinoDialog(
+      context: context,
+      builder: (BuildContext context){
+        
+        return Align(
+          alignment: Alignment.bottomCenter,
+          child: Container(
+            color: Colors.white,
+            height: 300,
+            child: Cuper,
+          ),
+        )
+         
+      }
+    )
   }
 }
