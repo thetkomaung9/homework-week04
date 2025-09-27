@@ -87,7 +87,9 @@ class _DDay extends StatelessWidget{
           '우리 처음 만난 날',
           style: textTheme.bodyLarge,
         ),
-        Text(key: ,)
+        Text(
+          
+        )
       ],
     )
   }
