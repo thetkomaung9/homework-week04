@@ -99,6 +99,10 @@ class _DDay extends StatelessWidget{
             Icons.favorite,
             color: Colors.red,
           ),
+        ),
+        const SizedBox(height: 16.0),
+        Text(
+          'D+${DateTime(now.year, now.month)}'
         )
       ],
     )
