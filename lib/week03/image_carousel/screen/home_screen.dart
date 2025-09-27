@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen>{
         pageController.animateToPage(
           nextPage,
           duration: Duration(microseconds: 500),
-          curve: Curve.ease,
+          curve: Curves.ease,
         );
       },
     );
