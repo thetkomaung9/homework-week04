@@ -72,6 +72,9 @@ class _DDay extends StatelessWidget{
   });
   @override
   Widget build(BuildContext context){
-    final tex
+    final TextTheme = Theme.of(context).textTheme;
+    final now = DateTime.now();
+
+    
   }
 }
