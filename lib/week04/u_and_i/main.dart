@@ -12,6 +12,9 @@ void main(){
             fontSize: 80.0,
             fontWeight: FontWeight.w700,
             fontFamily: 'parisienne',
+          ),
+          headlineMedium: TextStyle(
+            
           )
         )
 
