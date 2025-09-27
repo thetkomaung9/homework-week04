@@ -14,7 +14,12 @@ void main(){
             fontFamily: 'parisienne',
           ),
           headlineMedium: TextStyle(
-            
+            color: Colors.white,
+            fontSize: 50.0,
+            fontWeight: FontWeight.w700,
+          ),
+          bodyLarge: TextStyle(
+            color: Colors.white
           )
         )
 
