@@ -46,7 +46,14 @@ class _HomeScreenState extends State<HomeScreen>{
         bottom: Column(
           child: Column(
 
-            mainAxisAlignment: Main,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              _DDay(
+                onHeart
+              )
+            ],
           )
         ),
       ),
