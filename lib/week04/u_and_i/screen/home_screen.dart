@@ -103,9 +103,10 @@ class _DDay extends StatelessWidget{
         const SizedBox(height: 16.0),
         Text(
           'D+${DateTime(now.year, now.month,
-          now.day).difference(firstDay)}'
-        )
+          now.day).difference(firstDay).inDays}',
+          style: textTheme.headlineMedium,
+        ),
       ],
-    )
+    );
   }
 }
