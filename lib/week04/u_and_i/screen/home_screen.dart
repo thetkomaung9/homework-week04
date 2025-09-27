@@ -33,7 +33,9 @@ class _HomeScreenState extends State<HomeScreen>{
           ),
         );
          
-      }
-    )
+      },
+      barrierDismissible: true,
+    );
   }
+  
 }
