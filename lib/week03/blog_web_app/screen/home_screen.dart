@@ -7,5 +7,12 @@ class HomeScreen extends StatelessWidget{
 
   ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
 
-  ..
+  ..setJavaScriptMode(JavaScriptMode.unrestricted);
+
+  HomeScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    
+  }
 }
