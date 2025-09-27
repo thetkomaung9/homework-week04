@@ -45,7 +45,9 @@ class _HomeScreenState extends State<HomeScreen>{
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
     return Scaffold(
       body: PageView(
-        controller: [1, 2, 3, 4, 5],
+        controller: [1, 2, 3, 4, 5]
+        .map(
+          
       ),
     )
   }
