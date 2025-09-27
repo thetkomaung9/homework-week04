@@ -92,7 +92,14 @@ class _DDay extends StatelessWidget{
           style: textTheme.bodyMedium,
         ),
         const SizedBox(height: 16.0),
-        IconButton(onPressed: onPressed, icon: icon)
+        IconButton(
+          iconSize: 60.0,
+          onPressed: onHearPressed,
+          icon: Icon(
+            Icons.favorite,
+            color: Colors.red,
+          ),
+        )
       ],
     )
   }
