@@ -18,6 +18,17 @@ class _HomeScreenState extends State<HomeScreen>{
   void initState(){
     super.initState();
 
-    Timer.periodic(), callback)
+    Timer.periodic(
+      Duration(seconds: 3),
+      (timer){
+
+        int? nextPage = pageController.page?.toInt();
+
+        if(nextPage == null) {
+          return;
+        }
+        
+      }
+    )
   }
 }
