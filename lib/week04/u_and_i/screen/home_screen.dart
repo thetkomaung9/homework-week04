@@ -75,6 +75,14 @@ class _DDay extends StatelessWidget{
     final TextTheme = Theme.of(context).textTheme;
     final now = DateTime.now();
 
-    
+    return Column(
+      children: [
+        const SizedBox(height: 16.0),
+        Text(
+          'U&I',
+          style: textTheme.headlineLarge,
+        )
+      ],
+    )
   }
 }
