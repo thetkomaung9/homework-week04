@@ -84,7 +84,7 @@ class _DDay extends StatelessWidget{
         ),
         const SizedBox(height: 16.0),
         Text(
-          ''
+          '우리 처음 만'
         )
       ],
     )
